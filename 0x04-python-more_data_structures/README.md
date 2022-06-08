@@ -1,5 +1,6 @@
 # More Data Structures in Python
 
+Its aim is to learn about sets, dictionaries and functions to handle data structures like lambda, map, reduce and filter in Python.
 
 0. Squared simple
 
