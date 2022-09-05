@@ -1,9 +1,11 @@
 #!/usr/bin/node
 
-const { argv } = require('process');
-const num = parseInt(argv[2]);
-const printC = (cuantity) => {
-  for (; cuantity > 0; cuantity--) console.log('C is fun');
-};
+const arg = parseInt(process.argv[2], 10);
 
-Number.isInteger(num) ? printC(num) : console.log('Missing number of occurrences');
+if (isNaN(arg)) {
+  console.log('Missing number of occurrences');
+}
+
+for (let i = 1; i <= arg; i++) {
+  console.log('C is fun');
+}
