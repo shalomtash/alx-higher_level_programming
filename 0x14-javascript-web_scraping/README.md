@@ -1,5 +1,4 @@
 # 0x14-javascript-web_scraping
-# Porject 0x14. Javascript - Web scraping
 
 ## Description
 What you should learn from this project:
